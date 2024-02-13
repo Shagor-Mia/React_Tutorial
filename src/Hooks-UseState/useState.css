@@ -1,0 +1,11 @@
+/* button for useState */
+
+.btn {
+  padding: 1px;
+  border: red;
+  border-radius: 5px;
+  background-color: rgb(38, 222, 38);
+  color: rgb(231, 212, 231);
+  margin-right: 5px;
+  font-size: 2rem;
+}

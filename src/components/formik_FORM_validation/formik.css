@@ -1,0 +1,31 @@
+.head {
+  margin: 10px;
+  text-align: center;
+}
+.div1 {
+  margin-top: 40px;
+  text-align: center;
+}
+.div2 {
+  margin-top: 20px;
+  text-align: center;
+}
+.div3 {
+  margin-top: 20px;
+  text-align: center;
+}
+.form {
+  margin: 10px;
+  text-align: center;
+}
+.label {
+  margin-right: 35px;
+}
+.label2 {
+  margin-right: 7px;
+}
+.btn {
+  margin-top: 15px;
+  border-color: rgb(21, 49, 205);
+  background-color: #954747;
+}

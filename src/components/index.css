@@ -1,0 +1,33 @@
+body {
+  background-color: #282c34;
+  color: white;
+  margin: 12px;
+  padding: 40px;
+  font-size: 30px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.icon {
+  font-size: 10rem;
+  margin: 5rem;
+}
+
+/* state start  */
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: limegreen;
+  color: white;
+  margin-right: 10px;
+  font-size: 2rem;
+  width: 80px;
+}
+/* state end  */
+
+/* event bubbling start here */
+.parent {
+  background-color: rgb(149, 103, 18);
+}
+/* event bubbling start end */
