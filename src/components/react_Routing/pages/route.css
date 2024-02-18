@@ -1,0 +1,44 @@
+.all {
+  padding: 1rem;
+}
+nav {
+  height: 10vh;
+  background-color: rgb(77, 71, 71);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linked {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.linked:hover {
+  color: orange;
+}
+nav .active {
+  color: #e91c1c;
+}
+/* section {
+  display: grid;
+  grid-gap: 1rem;
+} */
+article {
+  background-color: rgb(211, 232, 232);
+}
+@media screen and (min-width: 600px) {
+  section {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  section {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 1rem;
+  }
+}

@@ -1,0 +1,19 @@
+nav {
+  height: 10vh;
+  background-color: rgb(77, 71, 71);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linked {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.linked:hover {
+  color: orange;
+}
+nav .active {
+  color: #e91c1c;
+}
