@@ -482,12 +482,51 @@
 // }
 
 // page title setup
+// import React from "react";
+
+// export default function App() {
+//   return (
+//     <div>
+//       <h1>Page Title Setup</h1>
+//     </div>
+//   );
+// }
+
+//react memo
+// import React from "react";
+// import Memo from "./components/memo/memo";
+
+// export default function App() {
+//   return (
+//     <div>
+//       <h1>React memo</h1>
+//       <Memo />
+//     </div>
+//   );
+// }
+
+// useCallback hook
+// import React from "react";
+// import Memo from "./components/useCallback_hook/memo";
+
+// export default function App() {
+//   return (
+//     <div>
+//       <h1>useCallback Hook</h1>
+//       <Memo />
+//     </div>
+//   );
+// }
+
+// useMemo Hook
 import React from "react";
+import Memo from "./components/useMemo_hook/memo";
 
 export default function App() {
   return (
     <div>
-      <h1>Page Title Setup</h1>
+      <h1>useMemo hook</h1>
+      <Memo />
     </div>
   );
 }
